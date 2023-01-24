@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #232e35;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section__container{
+    margin: 0 50px;
+}
+
+.main-section__content{
+    display: grid;
+    min-height: 100%;
+    align-items: center;
+    /* padding-top: 10px; */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.title__label {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 7.5px;
+    color: #656d72;
+    display: flex;
+    align-items: center;
+}
+
+.title__value {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+}
+
+.title__value span {
+    color: #7E74F1;
+}
+
+.text {
+    line-height: 32px;
+}
+
+.main-section__image {
+    justify-self: end;
+}
+
+.main__image {
+    width: 320px;
+    height: 450px;
+    border-radius: 12px;
+    margin-right: 40px;
+}
+
+.main-section__social {
+    padding-right: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin: 5px 0;
+}
+
+.lang__button {
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+    color: #7E74F1;
+    margin-right: 15px;
+}
+
+.lang__button span {
+    padding-top: 23px;
+}
+
+.sub__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 7.5px;
+    color: #7E74F1;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
