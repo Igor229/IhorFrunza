@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@300&display=swap');
+
+a {
+    text-decoration: none;
+    font-family: 'Popins', sans-serif;
+    color: #ce9261;
+}
+
+li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.main__header {
+    margin-bottom: 20px;
+    width: 100%;
+    background: rgba(233, 206, 105, 0.8);
+    padding: 5px 0;
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.main__title {
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+}
+
+.sub__title {
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+}
+
+.about__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    margin: 15px;
+}
+
+.about__img {
+    width: 500px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+.text__about {
+    font-family: 'Popins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.main__footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: rgba(233, 206, 105, 0.8);
+    padding: 25px 0;
+}
+
+.footer__content {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer__link {
+    padding: 0 15px;
+}
