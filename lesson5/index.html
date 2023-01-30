@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form class="registration__form">
+            <label class="registration__item">
+                Full Name
+                <input type="text" required>
+            </label>
+
+            <label class="registration__item">
+                Email
+                <input type="email" name="email" required>
+            </label>
+            
+            <label class="registration__item">
+                Password
+                <input type="password" name="password" required>
+            </label>
+            
+            <label class="registration__item">
+                Confirm your password
+                <input type="password" name="password" required>
+            </label>
+
+            <label class="registration__item">
+                Male
+                <input type="radio" name="gender" value="male" required>
+            </label>
+
+            <label class="registration__item">
+                Female
+                <input type="radio" name="gender" value="female" required>
+            </label>
+
+            <label class="registration__item">
+                Courses
+                <select name="courses" required>
+                    <option value="" disabled selected>choose-your-course</option>
+                    <option value="FE">Front-End</option>
+                    <option value="FE">Back-End</option>
+                    <option value="FE">UI/UX</option>
+                </select>
+            </label>
+
+            <label class="registration__item">
+                Full adress
+                <textarea name="adress" cols="30" rows="5" placeholder="Country, region, city, street" required></textarea>
+            </label>
+
+            <label class="registration__item">
+                <input type="checkbox" required>
+                I agree to the processing of personal data
+            </label>
+
+            <label class="registration__item">
+                <button type="reset" value="reset">Clear</button>
+                <button type="submit" value="submit">Sign Up</button>
+            </label>
+
+        </form>
+    </div>
+</body>
+</html>
