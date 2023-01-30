@@ -38,6 +38,7 @@ a, ul, li {
 
 .header__item {
     margin-right: 40px;
+    color: #828282;
 }
 
 li span {
@@ -165,6 +166,8 @@ li span {
     font-weight: 400;
     font-size: 18px;
     line-height: 24.5px;
+    text-decoration-line: underline;
+    text-decoration-color: #828282;
 }
 
 /* =============================================== */
@@ -183,6 +186,8 @@ li span {
     font-weight: 400;
     font-size: 18px;
     line-height: 24.5px;
+    text-decoration-line: underline;
+    text-decoration-color: #828282;
 }
 
 /* ======================================== */
@@ -195,13 +200,15 @@ li span {
 
 .braun__text {
     margin: 0 auto;
-    width: 200px;
+    width: 260px;
     height: 24px;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
     line-height: 24.5px;
     margin-bottom: 100px;
+    text-decoration-line: underline;
+    text-decoration-color: #828282;
 }
 
 /* ==================================================== */
