@@ -11,6 +11,7 @@
 a, ul, li {
     text-decoration: none;
     list-style-type: none;
+    color: #070707;
 }
 
 .wrapper {
@@ -71,7 +72,7 @@ li span {
     line-height: 46px;
 }
 
-.text__about {
+.text__main {
     margin: 0 auto;
     font-weight: 400;
     font-size: 18px;
@@ -92,3 +93,174 @@ li span {
     width: 321px;
 }
 
+.skill__title {
+    padding-bottom: 20px;
+}
+
+.skill__text {
+    padding-bottom: 50px;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    margin-bottom: 100px;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    height: 230px;
+    padding: 0;
+}
+
+.skills__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.sub__text {
+    margin-top: 25px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
+
+.text__ae {
+    width: 90px;
+    height: 38px;
+}
+
+.raiting {
+    width: 170px;
+    height: 26px;
+    margin-top: 60px;
+}
+
+/* ============================================= */
+
+.portfolio__title {
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.portfolio__image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.fashion__text {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.5px;
+}
+
+/* =============================================== */
+
+.reebok__image {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.reebok__text {
+    margin: 0 auto;
+    width: 200px;
+    height: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.5px;
+}
+
+/* ======================================== */
+
+.braun__image {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.braun__text {
+    margin: 0 auto;
+    width: 200px;
+    height: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.5px;
+    margin-bottom: 100px;
+}
+
+/* ==================================================== */
+
+.footer__title {
+    padding-bottom: 20px;
+}
+
+.footer__text {
+    width: 280px;
+    height: 46px;
+    padding-bottom: 60px;
+}
+
+.footer__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 180px;
+    height: 44px;
+    background: #070707;
+    border: 1px solid #070707;
+    border-radius: 22px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+.footer__button:hover{
+    cursor: pointer;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+    margin-top: 30px;
+    width: 310px;
+    height: 40px;
+}
+
+.footer__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__text2 {
+    width: 200px;
+    height: 60px;
+    margin: 100px auto 60px auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+}
