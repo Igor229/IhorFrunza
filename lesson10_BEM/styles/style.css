@@ -47,7 +47,7 @@ body {
     transition: 0.1s ease-in;
 }
 
-.nav__item:hover {
+.nav__item a:hover {
     color: #18B5DC;
     
 }
