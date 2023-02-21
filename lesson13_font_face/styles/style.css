@@ -1,0 +1,88 @@
+@import url("fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+.wrapper {
+    margin: 0 120px;
+    padding-top: 15px;
+}
+
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header__items-text{
+    text-transform: uppercase;
+    font-family: 'Tourney', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.header__items-navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.header__items-nav ul {
+    text-transform: uppercase;
+    font-family: 'Staatliches', sans-serif;
+    gap: 3px;
+}
+
+.header__items-nav ul{
+    display: flex;
+}
+
+.chapter {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__title {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+}
+
+.main__title span {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    width: 100px;
+    height: 20px;
+    font-family: 'Farro', sans-serif;
+}
+
+.chapter__description p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.chapter__fourth {
+    padding-bottom: 90px;
+}

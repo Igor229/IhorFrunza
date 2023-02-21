@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(122, 92, 250, 0.2);
+}
+
+.main {
+    background-color: #fff;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 96px;
+}
+
+.form__item {
+    margin-bottom: 32px;
+}
+
+.label  {
+    color: #666;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+}
+
+.input {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    outline: 1px solid transparent;
+}
+
+.input:focus {
+    outline: 2px solid #7A5CFA;
+    border: 1px solid transparent;
+}
+
+.input:invalid {
+    outline: 2px solid #EB5757;
+    border: 1px solid transparent;
+}
+
+.form__item-message {
+    font-size: 12px;
+    color: #666;
+    padding-top: 8px;
+}
+
+.form__item-error {
+    color: #EB5757;
+    display: none;
+}
+
+.input:invalid + .form__item-message .form__item-hint {
+    display: none;
+}
+
+.input:invalid + .form__item-message .form__item-error {
+    display: block;
+}
+
+.checkbox {
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    user-select: none;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.checkmark::after{
+    content: "";
+    position: absolute;
+    display: none;
+}
