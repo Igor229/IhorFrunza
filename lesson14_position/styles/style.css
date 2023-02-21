@@ -1,0 +1,133 @@
+@import url("fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
+}
+
+.header__wrapper {
+    margin: 0 120px;
+    padding-top: 15px;
+}
+
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header__items-text{
+    text-transform: uppercase;
+    font-family: 'Tourney', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.header__items-navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.header__items-nav ul {
+    text-transform: uppercase;
+    font-family: 'Staatliches', sans-serif;
+    gap: 3px;
+}
+
+.header__items-nav ul{
+    display: flex;
+}
+
+.main__container {
+    display: flex;
+    margin: 0 120px;
+    gap: 30px;
+}
+
+.side__bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+    position: sticky;
+    top: 150px;
+    width: 100%;
+    height: 460px;
+}
+
+.side__bar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 10px;
+    gap: 10px;
+}
+
+.bg__picture {
+    position: fixed;
+    left: 65%;
+    z-index: -1;
+}
+
+.chapter {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.chapter__one {
+    padding-top: 0;
+}
+
+.main__text {
+    margin-top: 70px;
+}
+
+.main__title {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+}
+
+.main__title span {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    width: 100px;
+    height: 20px;
+    font-family: 'Farro', sans-serif;
+}
+
+.chapter__description p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.chapter__fourth {
+    padding-bottom: 90px;
+}
