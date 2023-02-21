@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="form__container">
+            <h1 class="main__title">Create an Account</h1>
+    
+            <div class="form__item form__item-name">
+                <label>
+                    First Name
+                    <input type="text" class="input" required>
+                </label>
+    
+                <label>
+                    Last Name
+                    <input type="text" class="input" required>
+                </label>
+            </div>
+    
+            <div class="form__item form__item-email">
+                <label>
+                    E-mail
+                    <input type="email" class="input" required>
+                    <span class="sub__text">We'll never share your email with anyone else.</span>
+                </label>
+            </div>
+    
+            <div class="form__item-gender">
+                <label class="container">
+                    <input type="radio" name="gender" value="male">
+                    <span class="checkmark"></span>
+                    Male
+                </label>
+
+                <label class="container">
+                    <input type="radio" name="gender" value="female">
+                    <span class="checkmark"></span>
+                    Female
+                </label>
+            </div>
+    
+            <div class="form__item form__item-city">
+                <label>
+                    Country
+                    <select name="Country" required>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="USA">USA</option>
+                        <option value="Moldavan">Moldavan</option>
+                    </select>
+                </label>
+    
+                <label>
+                    City
+                    <input type="text" class="input" required>
+                </label>
+            </div>
+    
+            <div class="footer__actions">
+                <button type="submit" class="button">Sign Up</button>
+    
+                <div class="footer__actions-terms">
+                    <p class="sub__text">
+                        By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                        <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+                    </p>
+                </div>
+    
+                <div class="footer__actions-logIn">
+                    <a href="#">Have an account?</a>
+                    <a href="#">Log In</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

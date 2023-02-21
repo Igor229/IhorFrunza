@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 570px;
+    padding: 35px;
+    gap: 20px;
+}
+
+body, a, ul {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    color: #545454;
+}
+
+.main__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1c1c1c;
+}
+
+.form__item {
+    display: flex;
+    gap: 15px;
+}
+
+.form__item label{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+}
+
+.input {
+    width: 243px;
+    height: 40px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    background: #FFF;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.input:focus {
+    outline: none;
+    border:1px solid #007BFF;
+}
+
+.form__item-email input {
+    width: 500px;
+}
+
+.sub__text {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+    padding-top: 10px;
+}
+
+.form__item-gender {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+
+/* ====================================== */
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+/* ========================================= */
+
+
+
+
+
+.form__item-city select {
+    width: 242px;
+    height: 40px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    background: #FFF;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form__item-city select:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+}
+
+.footer__actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 500px;
+    height: 40px;
+    background: #007BFF;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #e4e4e4;
+    cursor: pointer;
+}
+
+.footer__actions-terms {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 20px;
+}
+
+.footer__actions-terms a {
+    color: #007BFF;
+}
+
+.footer__actions-logIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+}
+
+.footer__actions-logIn a:last-child {
+    color: #007BFF;
+    letter-spacing: -0.1px;
+}
