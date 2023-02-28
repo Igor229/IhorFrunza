@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #16133D;
+}
+
+.header {
+    border-bottom: 1px solid #EFEEF3;
+}
+
+.wrapper {
+    margin: 0 135px;
+}
+
+/* HEADER STYLES */
+
+.logo {
+    width: 200px;
+    height: 35px;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: start;
+    margin: 23px 0;
+}
+
+/* CONTENT STYLES */
+
+.main__content {
+    margin-top: 100px;
+}
+
+.content__item-title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content__item-title p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+}
+
+.content__item-title h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+}
+
+/* ============================= */
+
+.content__item-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.content__item-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.content__item-card:hover {
+    border: 1px solid #3DB370;
+}
+
+.card__icon--active {
+    display: none;
+}
+
+.content__item-card:hover .card__icon--default {
+    display: none;
+}
+
+.content__item-card:hover .card__icon--active {
+    display: inline-block;
+}
+
+.card__description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.card__description h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+}
+
+.card__description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.card__action a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+    margin-top: 100px;
+    background-color: #16133D;
+    padding: 40px 0;
+}
+
+.social__links ul{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.social__links-item {
+    width: 38px;
+    height: 38px;
+    background-color: #FFF;
+    border-radius: 10px;
+    fill: black;
+}
+
+.social__links-item:hover {
+    fill: #3DB370;
+}
