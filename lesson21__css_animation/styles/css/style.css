@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cards__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cards__container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.cards__container-card img {
+  width: 250px;
+  height: 400px;
+}
+.cards__container .front-card .icon-up {
+  display: flex;
+  justify-content: start;
+  padding: 20px 0 0 20px;
+}
+.cards__container .front-card .icon-up svg {
+  width: 50px;
+  height: 80px;
+}
+.cards__container .front-card .icon-middle {
+  display: flex;
+  justify-content: center;
+}
+.cards__container .front-card .icon-middle svg {
+  width: 100px;
+  height: 100px;
+}
+.cards__container .front-card .icon-down {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px 20px 0;
+}
+.cards__container .front-card .icon-down svg {
+  width: 30px;
+  height: 70px;
+}
+
+.front-card {
+  transform: rotateY(90deg);
+}
+
+.back-card {
+  position: absolute;
+}
+
+.cards__container:hover .front-card {
+  animation: flip 0.3s 0.3s ease-out forwards reverse;
+}
+
+.cards__container:hover .back-card {
+  animation: flip 0.3s ease-in forwards;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
+}/*# sourceMappingURL=style.css.map */
