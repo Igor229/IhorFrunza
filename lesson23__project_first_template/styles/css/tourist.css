@@ -1,0 +1,63 @@
+.tourist {
+  background-image: url(/assets/images/tourist_container/tourist_bg--desktop-Max.png);
+  background-size: cover;
+}
+.tourist .wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.tourist__title {
+  padding-top: 120px;
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.tourist__review {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0 180px 0;
+}
+.tourist__review-image {
+  width: 100%;
+}
+.tourist__review-image img {
+  width: 100%;
+  height: 100%;
+}
+.tourist__review-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  background-color: #333;
+  padding: 10px 20px;
+}
+.tourist__review-description h3 {
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.tourist__review-description .tourist__icon {
+  width: 20px;
+  height: 20px;
+  fill: #5373FD;
+  padding: 0 2px 5px 0;
+}
+.tourist__review-description p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 768px) {
+  .tourist__title {
+    padding-top: 60px;
+    line-height: 0;
+  }
+  .tourist__review {
+    flex-direction: column;
+    padding: 60px 0;
+  }
+}/*# sourceMappingURL=tourist.css.map */

@@ -1,0 +1,80 @@
+.why {
+    background-image: url(/assets/images/why_container/why_backgroundMax.png);
+    background-size: cover;
+    & .wrapper {
+        flex-direction: row;
+        align-items: center;
+        padding: 130px 0;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px;
+        padding-right: 15%;
+        
+        &-title {
+            font-family: 'Aleo', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+            text-transform: capitalize;
+            padding-bottom: 25px;
+        }
+
+        &-text {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+
+            & p {
+                padding-bottom: 30px;
+            }
+        }
+
+        &-button {
+            width: 215px;
+            height: 60px;
+        }
+
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .why__lake {
+            position: relative;
+            right: 60px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        & .wrapper {
+            flex-direction: column-reverse;
+            padding: 60px 0;
+        }
+
+        &__images {
+            display: flex;
+            flex-direction: row;
+
+            .why__lake {
+                position: static;
+            }
+        }
+
+        &__description {
+            justify-content: center;
+            align-items: center;
+            padding: 32px 0;
+
+            &-text {
+                text-align: center;
+            }
+        }
+    }
+}

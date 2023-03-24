@@ -1,0 +1,72 @@
+.tourist {
+    background-image: url(/assets/images/tourist_container/tourist_bg--desktop-Max.png);
+    background-size: cover;
+    & .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding-top: 120px;
+        font-family: 'Aleo', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        text-transform: capitalize;
+    }
+
+    &__review {
+        display: flex;
+        flex-direction: row;
+        padding: 60px 0 180px 0;
+
+        &-image {
+            width: 100%;
+            & img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 16px;
+            background-color: #333;
+            padding: 10px 20px;
+
+            & h3 {
+                font-size: 20px;
+                line-height: 28px;
+                text-transform: uppercase;
+            }
+
+            .tourist__icon {
+                width: 20px;
+                height: 20px;
+                fill: #5373FD;
+                padding: 0 2px 5px 0;
+            }
+
+            & p {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        &__title {
+            padding-top: 60px;
+            line-height: 0;
+        }
+
+        &__review {
+            flex-direction: column;
+            padding: 60px 0;
+        }   
+    }
+}

@@ -1,0 +1,48 @@
+.steps {
+    background-color: #333;
+    & .wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 110px 0 60px 0;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        &-icon {
+            width: 75px;
+            height: 75px;
+        }
+
+        .icon-search {
+            fill: #5373FD;
+        }
+
+        .icon-check {
+            fill: #FF6363;
+        }
+
+        .icon-thumbs-up {
+            fill: #00A2FF;
+        }
+
+        &-description {
+            font-family: 'Aleo', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        & .wrapper {
+            flex-direction: column;
+            gap: 60px;
+            padding: 60px 0;
+        }   
+    }
+}

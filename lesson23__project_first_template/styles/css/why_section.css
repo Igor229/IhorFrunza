@@ -1,0 +1,67 @@
+.why {
+  background-image: url(/assets/images/why_container/why_backgroundMax.png);
+  background-size: cover;
+}
+.why .wrapper {
+  flex-direction: row;
+  align-items: center;
+  padding: 130px 0;
+}
+.why__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+  padding-right: 15%;
+}
+.why__description-title {
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+}
+.why__description-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+.why__description-text p {
+  padding-bottom: 30px;
+}
+.why__description-button {
+  width: 215px;
+  height: 60px;
+}
+.why__images {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.why__images .why__lake {
+  position: relative;
+  right: 60px;
+}
+@media screen and (max-width: 768px) {
+  .why .wrapper {
+    flex-direction: column-reverse;
+    padding: 60px 0;
+  }
+  .why__images {
+    display: flex;
+    flex-direction: row;
+  }
+  .why__images .why__lake {
+    position: static;
+  }
+  .why__description {
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+  }
+  .why__description-text {
+    text-align: center;
+  }
+}/*# sourceMappingURL=why_section.css.map */

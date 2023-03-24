@@ -1,0 +1,67 @@
+.house__container {
+    background-image: url(/assets/images/book_container/book_bg--desktop-Max.png);
+    background-size: cover;
+}
+
+.sea__container {
+    background-image: url(/assets/images/sea_container/sea_bg--desktop-max.png);
+    background-size: cover;
+    & .spain {
+        justify-content: end;
+    }
+}
+
+.spain {
+    padding: 15% 0 10% 0;
+    display: flex;
+    justify-content: flex-start;
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+        padding: 45px 35px;
+        background: rgba(35, 35, 35, 0.9);
+        width: 50%;
+    
+        &-underTitle {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+        }
+    
+        &-title {
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+        }
+    
+        &-description {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+        }
+    
+        &-action {
+            .spain-button {
+                width: 215px;
+                height: 60px;
+                font-family: 'Aleo', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 0.07em;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+       &__card {
+        width: 100%;
+       }   
+    }
+}
