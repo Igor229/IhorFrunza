@@ -1,10 +1,10 @@
 .house__container {
-  background-image: url(/assets/images/book_container/book_bg--desktop-Max.png);
+  background-image: url(../../assets/images/book_container/book_bg--desktop-Max.png);
   background-size: cover;
 }
 
 .sea__container {
-  background-image: url(/assets/images/sea_container/sea_bg--desktop-max.png);
+  background-image: url(../../assets/images/sea_container/sea_bg--desktop-max.png);
   background-size: cover;
 }
 .sea__container .spain {

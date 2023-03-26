@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  background-image: url(/assets/images/header/header_bg--desktopMax.png);
+  background-image: url(../../assets/images/header/header_bg--desktopMax.png);
   background-size: cover;
 }
 .header__items {
@@ -161,7 +161,7 @@
 }
 
 .why {
-  background-image: url(/assets/images/why_container/why_backgroundMax.png);
+  background-image: url(../../assets/images/why_container/why_backgroundMax.png);
   background-size: cover;
 }
 .why .wrapper {
@@ -272,12 +272,12 @@
 }
 
 .house__container {
-  background-image: url(/assets/images/book_container/book_bg--desktop-Max.png);
+  background-image: url(../../assets/images/book_container/book_bg--desktop-Max.png);
   background-size: cover;
 }
 
 .sea__container {
-  background-image: url(/assets/images/sea_container/sea_bg--desktop-max.png);
+  background-image: url(../../assets/images/sea_container/sea_bg--desktop-max.png);
   background-size: cover;
 }
 .sea__container .spain {
@@ -332,7 +332,7 @@
 }
 
 .tourist {
-  background-image: url(/assets/images/tourist_container/tourist_bg--desktop-Max.png);
+  background-image: url(../../assets/images/tourist_container/tourist_bg--desktop-Max.png);
   background-size: cover;
 }
 .tourist .wrapper {

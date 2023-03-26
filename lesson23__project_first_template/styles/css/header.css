@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  background-image: url(/assets/images/header/header_bg--desktopMax.png);
+  background-image: url(../../assets/images/header/header_bg--desktopMax.png);
   background-size: cover;
 }
 .header__items {
