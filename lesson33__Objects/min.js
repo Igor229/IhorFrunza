@@ -40,8 +40,8 @@ function longTrip (obj, distance) {
 разом з урахуванням відпочинку на стільки годин: ${restCounter}год`)
 }
 
-let userDistance = +prompt('Скільки км ви плануєте проїхати?')
-longTrip(priora, userDistance)
+// let userDistance = +prompt('Скільки км ви плануєте проїхати?')
+// longTrip(priora, userDistance)
 // addDriver(priora)
 // vehicleInfo(priora)
 // isDriver(priora)
