@@ -71,14 +71,12 @@
 
 // ===================================================================================
 
-// function getArea (width, height) {
-//     if (!height) {
-//         return width * width
-//     } else {
-//         return width * height
-//     }
-// }
+function getArea (width, height) {
+   return (!height) ? width**2 : height * width
+}
 
-// console.log(getArea(10, 5))
+console.log(getArea(10))
+console.log(getArea(10, 5))
 
 // ===================================================================================
+
