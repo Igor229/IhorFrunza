@@ -1,0 +1,42 @@
+.light__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 240px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #000;
+  }
+  .light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .red {
+    background-color: red;
+    border: 3px solid white;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .green {
+    background-color: green;
+  }
+
+  .switch-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+  }
