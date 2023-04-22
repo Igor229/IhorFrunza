@@ -67,6 +67,7 @@ function addSongs() {
 const trafficLight = document.querySelector('.traffic-light')
 const switchButton = document.querySelector('.switch-btn')
 let light = 'red'
+let prev = 'red'
 
 switchButton.addEventListener('click', () => {
     switch (light) {
@@ -74,16 +75,25 @@ switchButton.addEventListener('click', () => {
             trafficLight.querySelector('.yellow').style.border = '3px solid white'
             trafficLight.querySelector('.red').style.border = 'none'
             light = 'yellow'
+            prev = 'red'
             break
         case 'yellow':
-            trafficLight.querySelector('.green').style.border = '3px solid white'
             trafficLight.querySelector('.yellow').style.border = 'none'
-            light = 'green'
+            
+            if (prev === 'red'){
+              trafficLight.querySelector('.green').style.border = '3px solid white'
+              light = 'green'
+            } else if (prev === 'green'){
+              trafficLight.querySelector('.red').style.border = '3px solid white'
+              light = 'red'
+            }
+
             break
         case 'green':
-            trafficLight.querySelector('.red').style.border = '3px solid white'
+            trafficLight.querySelector('.yellow').style.border = '3px solid white'
             trafficLight.querySelector('.green').style.border = 'none'
-            light = 'red'
+            light = 'yellow'
+            prev = 'green'
             break
     }
 })

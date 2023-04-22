@@ -1,0 +1,8 @@
+.text-box {
+    border: 1px solid #ccc;
+    resize: both;
+    overflow: auto;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+  }
