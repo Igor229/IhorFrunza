@@ -1,4 +1,5 @@
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=50.450001&lon=30.523333&appid=742198c70f710c4c4e1999121c8c386b&units=metric';
+// Цельсій відображається тільки в Лайв Сервері, хз чому так, ліньки розбиратись >_<
 
 console.log(apiUrl);
 function fetchWeatherData() {
