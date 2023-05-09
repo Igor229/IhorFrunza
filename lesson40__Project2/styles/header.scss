@@ -1,0 +1,136 @@
+.header {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+
+    &__logo {
+        display: flex;
+        width: 240px;
+        height: 55px;
+        align-items: center;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 45px;
+        align-items: center;
+
+        &-bullet {
+            width: 9px;
+            height: 9px;
+            border: 1px solid #fff;
+            border-radius: 100%;
+            margin-right: 10px;
+            fill: none
+        }
+
+        & a {
+            color: #fff;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 18px;
+            cursor: default;
+        }
+
+        &-item {
+            transition: all 0.1s ease-in;
+        }
+
+        &-item::after {
+            content: '';
+            width: 0;
+            display: block;
+            height: 2px;
+            background: #fff;
+            transition: width 0.3s;
+        }
+
+        &-item:hover &-bullet{
+            fill: #fff;
+            border: none;
+        }
+        &-item:hover::after {
+            width: 100%;
+        }
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        & a {
+            cursor: default;
+            transition: all 0.1s ease-out;
+        }
+        & a:hover{
+            transform: scale(1.5);
+        }
+    }
+
+    &__heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-main {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 98px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        &-sub {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.3em;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+
+    &__action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-arrow {
+            background-color: rgba($color: #000, $alpha: 0);
+            border: none;
+            margin-bottom: 50px;
+            transition: all 0.1s ease-in-out;
+
+            & a {
+                cursor: default;
+            }
+        }
+
+        &-arrow:hover {
+            transform: scale(1.5);
+        }
+    }
+}

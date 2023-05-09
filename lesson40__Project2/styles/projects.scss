@@ -1,0 +1,105 @@
+.projects {
+    padding-top: 100px;
+
+    &__description {
+        &-under {
+            font-family: 'Monsterrat', sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color: #2C4058;
+            text-transform: uppercase;
+        }
+    
+        &-title {
+            font-family: 'Monsterrat', sans-serif;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            color: #2C4058;
+            text-transform: uppercase;
+        }
+    
+        &-text {
+            padding-top: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            color: #2C4058;
+        }
+    
+        &-button {
+            margin-top: 40px;
+        }
+    
+        &-location {
+            padding-top: 60px;
+            & img {
+                width: 10px;
+                height: 15px;
+            }
+    
+            & a {
+                font-family: 'Open Sans', sans-serif;
+                font-style: italic;
+                font-size: 15px;
+                line-height: 20px;
+                font-weight: 700;
+                color: #000;
+            }
+    
+        }
+    }
+
+    &__trade {
+        padding-top: 90px;
+        display: flex;
+        gap: 50px;
+
+        &-images {
+            & img {
+                position: relative;
+                margin-top: 60px;
+            }
+        }
+
+        &-card {
+            padding-top: 150px;
+        }
+    }
+
+    .trade-bg {
+        width: 585px;
+        height: 470px;
+        background-color: #55B7FF;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+
+    .commerce-bg {
+        width: 585px;
+        height: 470px;
+        background-color: #7E5AFF;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+
+    &__commerce {
+        padding-top: 90px;
+        display: flex;
+        gap: 50px;
+
+        &-card {
+            padding-top: 150px;
+        }
+
+        &-images {
+            & img {
+                position: relative;
+                margin-top: 60px;
+            }
+        }
+    }
+}

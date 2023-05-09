@@ -1,0 +1,36 @@
+.footer {
+  background-image: url(../../assets/img/footer.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+  gap: 350px;
+}
+.footer__credits {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer__credits-copywrite {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+}
+.footer__social {
+  display: flex;
+  gap: 20px;
+  height: 40px;
+}
+.footer__social-icon {
+  width: 40px;
+  height: 40px;
+}
+.footer__social a {
+  cursor: default;
+  transition: all 0.1s ease-out;
+}
+.footer__social a:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=footer.css.map */

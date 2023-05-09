@@ -1,0 +1,117 @@
+.header {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.header__logo {
+  display: flex;
+  width: 240px;
+  height: 55px;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+.header__menu-bullet {
+  width: 9px;
+  height: 9px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin-right: 10px;
+  fill: none;
+}
+.header__menu a {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: default;
+}
+.header__menu-item {
+  transition: all 0.1s ease-in;
+}
+.header__menu-item::after {
+  content: "";
+  width: 0;
+  display: block;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+.header__menu-item:hover .header__menu-bullet {
+  fill: #fff;
+  border: none;
+}
+.header__menu-item:hover::after {
+  width: 100%;
+}
+.header__social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__social-icon {
+  width: 40px;
+  height: 40px;
+}
+.header__social a {
+  cursor: default;
+  transition: all 0.1s ease-out;
+}
+.header__social a:hover {
+  transform: scale(1.5);
+}
+.header__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__heading-main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header__heading-sub {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.3em;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__action-arrow {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-bottom: 50px;
+  transition: all 0.1s ease-in-out;
+}
+.header__action-arrow a {
+  cursor: default;
+}
+.header__action-arrow:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=header.css.map */

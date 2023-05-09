@@ -1,0 +1,47 @@
+.contact {
+  margin-top: 150px;
+}
+.contact__map {
+  background-image: url(../../assets/img/map.png);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.contact__form {
+  position: absolute;
+  z-index: 10;
+  -webkit-transform: translate(-50%, -70%);
+  left: 50%;
+  width: 770px;
+  height: 450px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.contact__form-container {
+  padding: 40px 60px 60px 60px;
+  display: flex;
+  gap: 55px;
+}
+.contact__form-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact__form-contacts a {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.contact__form-registration form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact__form-registration form button {
+  width: 140px;
+  font-size: 18px;
+  line-height: 27px;
+}/*# sourceMappingURL=contact.css.map */
