@@ -1,0 +1,34 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    z-index: -1;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 40px;
+  }
+  
+  .menu__item {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.3;
+  }
+
+  #active {
+    opacity: 1;
+  }
